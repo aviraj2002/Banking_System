@@ -206,7 +206,7 @@ int main() {
             for (auto& c : customers) {
                 if (c.getCustomerId() == customerId) {
                     customer = &c;
-                    break;
+                    //break;
                 }
             }
 
